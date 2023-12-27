@@ -1,5 +1,4 @@
 class Stack {
-
     constructor() {
       this.items = {}
       this.count = 0
@@ -56,8 +55,8 @@ class Stack {
   
   //Class instance
   
-//   let stack = new Stack()
-//   stack.push(3)
+  let stack = new Stack()
+  stack.push(3)
 //   stack.push(2)
 //   stack.push(5)
   
