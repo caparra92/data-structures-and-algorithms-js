@@ -1,7 +1,7 @@
 import { Compare, defaultCompare } from "../util/defaultCompare";
 import BinarySearchTree from "./BinarySearchTree";
 
-class AVLTree extends BinarySearchTree {
+export class AVLTree extends BinarySearchTree {
     constructor(compareFn = defaultCompare) {
         super(compareFn);
         this.compareFn = compareFn;
